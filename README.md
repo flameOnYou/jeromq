@@ -145,3 +145,7 @@ All source files are copyright © 2007-2018 contributors as noted in the AUTHORS
 
 Free use of this software is granted under the terms of the Mozilla Public License 2.0. For details see the file `LICENSE` included with the JeroMQ distribution.
 
+### 打jar包的时候跳过编译Test
+```bash
+mvn package  -Dmaven.test.skip=true
+```
